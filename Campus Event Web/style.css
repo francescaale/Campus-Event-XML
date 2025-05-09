@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif; /* set the font*/
+    line-height: 1.6; /* set line height to 1.6 for better readability */
+}
+
+/* Card hover effect */
+.card {
+    transition: transform 0.5s; /* smooth transition for scale effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* on hover - enlarge the card */
+}
+
+/* Table header and cells */
+th, td {
+    width: 20px; /* set fixed width of 20px for table header and data cells */
+}
+
+/* Table header */
+.table th {
+    background-color: black; /* set bg-color of table headers to black */
+    color: #fff; /* set table header text color to white */
+}
+
+/* Table data cell */
+.table td {
+    vertical-align: middle; /* align content of table cells vertically to the middle */
+}
+
+/* Table border */
+.table {
+    border: solid #000000; /* solid black border to the table */
+}
+
+/* Dark mode */
+.dark-mode {
+    background-color: black; /* background color to black for dark mode */
+    color: white; /* text color to white for dark mode */
+}
+
+/* Responsive style for smaller screens (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+
+    /* Adjust the layout of cards in the row to stack vertically */
+    .row {
+        gap: 20px; /* add 20px gap between stacked cards */
+    }
+    
+    .table-responsive{
+        font-size: 12px; /* reduce font size of tables */
+    }
+
+    .remove{
+        height: 20px; /* set height of remove button */
+        width: 60px; /* set width of remove button */
+        font-size: 10px; /* set smaller font size for remove button */
+        line-height: 50%; /* adjust line height for better vertical alignment */
+    }
+
+    .checkout{
+        height: 40px; /* set height of checkout button */
+        width: 100px; /* set width of checkout button */
+        font-size: 13px; /* set font size of checkout button */
+        line-height: 100%; /* adjust line height for checkout button */
+    }
+
+    footer{
+        font-size: 14px; /* set font size for footer text */
+    }
+    
+    p{
+        font-size: 14px; /* set font size for paragraphs */
+    }
+}
+
+  
+
+
+
+
+
