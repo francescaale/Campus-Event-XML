@@ -9,8 +9,8 @@ Used
 - **JavaScript**: To parse XML and display event details dynamically
 - **Backend**: No backend (Static website using XML for data)
 
-## ⚙️ How It Works
+How It Works
 
-- **XML Data**: Event details (date, time, location, description) are stored in an **XML files**.
+- **XML Data**: Event details (date, time, location, description) are stored in **XML files**.
 - **Dynamic Display**: JavaScript is used to fetch and display event details dynamically from the XML file on the web page.
 - **Responsive Design**: The site is fully responsive using **Bootstrap**, ensuring a seamless experience on both desktop and mobile devices.
